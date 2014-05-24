@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"view will appear");
+}
+
 -(void)viewDidAppear:(BOOL)animated{
     [self.delegate checkTabbarStatus:self.pageIndex];
 }
