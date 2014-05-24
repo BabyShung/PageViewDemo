@@ -1,20 +1,18 @@
 //
-//  ViewController.h
+//  FrameViewController.h
 //  PageViewDemo
 //
-//  Created by Simon on 24/11/13.
-//  Copyright (c) 2013 Appcoda. All rights reserved.
+//  Created by Hao Zheng on 5/23/14.
+//  Copyright (c) 2014 Appcoda. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "ContentViewController.h"
 
 @interface FrameViewController : UIViewController <UIPageViewControllerDataSource>
 
-- (IBAction)startWalkthrough:(id)sender;
-
 @property (strong, nonatomic) UIPageViewController *pageViewController;
-@property (strong, nonatomic) NSArray *pageTitles;
-@property (strong, nonatomic) NSArray *pageImages;
+
+
+@property (weak, nonatomic) IBOutlet UIView *tabbarView;
 
 @end
