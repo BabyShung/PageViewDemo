@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="62" y="411"/>
+            <point key="canvasLocation" x="398" y="563"/>
         </scene>
         <!--first View Controller-->
         <scene sceneID="kaE-fR-ZCE">
@@ -95,10 +95,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.17433766940000001" green="0.84260335230000005" blue="0.92427164319999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DvY-fA-XKv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFq-g7-Bxc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="445" y="411"/>
+            <point key="canvasLocation" x="1051" y="-857"/>
         </scene>
         <!--second View Controller-->
         <scene sceneID="bM8-Hc-TXU">
@@ -122,10 +123,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.65111954220000001" green="0.99374729390000005" blue="0.54750426289999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DT3-va-Jbn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXl-1B-Xb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="411"/>
+            <point key="canvasLocation" x="1051" y="-161"/>
         </scene>
         <!--forth View Controller-->
         <scene sceneID="rtO-15-4ze">
@@ -146,10 +148,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99625386285361051" blue="0.54184533474545615" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="uiX-R4-9Oh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUk-SC-S95" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591" y="411"/>
+            <point key="canvasLocation" x="1045" y="1219"/>
         </scene>
         <!--third View Controller-->
         <scene sceneID="1lz-MQ-wCe">
@@ -174,10 +177,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.71774232387542725" green="0.42701983682160027" blue="0.58674205082121111" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fMc-HI-wPx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yrN-vW-Qpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1215" y="411"/>
+            <point key="canvasLocation" x="1051" y="539"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="CdP-mB-dRg">
@@ -185,7 +189,7 @@
                 <pageViewController storyboardIdentifier="PageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="c5l-sO-hbt" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ck-gc-UUI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="445" y="-256"/>
+            <point key="canvasLocation" x="398" y="-132"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
