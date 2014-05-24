@@ -55,9 +55,18 @@
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageVC"];
     self.pageViewController.dataSource = self;
     
+    
+    
     //assign the which view to be the first to show
     UIViewController *startingVC = [self viewControllerAtIndex:0];
-    NSArray *viewControllers = @[startingVC];
+    //UIViewController *startingVC2 = [self viewControllerAtIndex:1];
+
+    NSArray *viewControllers2 = @[self.VC2];
+    
+    [self.pageViewController setViewControllers:viewControllers2 direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    
+    
+    NSArray *viewControllers = @[self.VC1];
     
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     
@@ -68,6 +77,8 @@
     [self.view addSubview:_pageViewController.view];
     [self.pageViewController didMoveToParentViewController:self];
 
+    
+    NSLog(@"will see a did load first..");
     
     [self.view bringSubviewToFront:self.tabbarView];
     
@@ -101,7 +112,6 @@
         }];
     }
 }
-
 
 -(void)dealloc{
      NSLog(@"dealloc...");

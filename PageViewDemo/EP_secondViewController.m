@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 
+    NSLog(@"did load 2!");
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated{

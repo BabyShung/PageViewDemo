@@ -18,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSLog(@"did load 1!");
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated{
